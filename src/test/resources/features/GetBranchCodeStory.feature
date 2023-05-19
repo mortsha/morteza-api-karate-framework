@@ -10,5 +10,9 @@ Feature: Get Branch code story
 	Scenario: Get all plans code
 	Given path "/api/plans/get-all-plan-code"
 	And header authorization = "Bearer " + generatedToken
+	When method get
+	Then status 200
+	And print response
+	
 	
 	
