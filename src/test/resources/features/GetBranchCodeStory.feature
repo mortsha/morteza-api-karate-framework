@@ -1,5 +1,5 @@
 @Regression
-Feature: Get Branch code story
+Feature: Get all plans user story
 
 	Background: Setup Request URL
 	* def result = callonce read('GenerateToken.feature')
