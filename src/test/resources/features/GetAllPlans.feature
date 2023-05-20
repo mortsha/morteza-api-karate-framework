@@ -1,5 +1,5 @@
 @Regression
-Feature: Get all plans user story
+Feature: Get All Plans 
 
   Background: Setup Request URL
     * def result = callonce read('GenerateToken.feature')
@@ -13,3 +13,7 @@ Feature: Get all plans user story
     When method get
     Then status 200
     And print response
+    And assert response[0].planExpired == false
+    And assert response[1].planExpired == false
+    And assert response[2].planExpired == false
+    And assert response[3].planExpired == false
