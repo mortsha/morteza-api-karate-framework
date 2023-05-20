@@ -1,4 +1,4 @@
-@Regression
+
 Feature: Generate Token
 
   Scenario: Generate a Valid Token
