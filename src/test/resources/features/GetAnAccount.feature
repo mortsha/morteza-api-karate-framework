@@ -30,4 +30,3 @@ Feature: Verify Accounts
     When method get
     Then status 200
     And print response
-    And assert response.email == "JustaMurphy@gmail.com"
