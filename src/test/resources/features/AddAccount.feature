@@ -1,3 +1,4 @@
+@Regression
 Feature: Create a new Account
 
   Background: generate token
