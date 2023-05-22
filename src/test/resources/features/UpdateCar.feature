@@ -19,7 +19,7 @@ Feature: Update the car
         "model": "Civic",
         "year": "2023",
         "licensePlate": "#(autoLicense)"
-      }
+      }git 
       """
     When method put
     Then status 200
