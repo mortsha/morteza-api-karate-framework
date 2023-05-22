@@ -51,25 +51,8 @@ public class GenerateData {
 		return phoneNumber;
 	}
 
-	public static String getPhoneNumber1() {
-		String phoneNumber = "1";
-		for (int i = 0; i < 9; i++) {
-			phoneNumber += (int) (Math.random() * 3);
-		}
-		String phoneNumber1 = "1";
-		for (int i = 0; i < 9; i++) {
-			phoneNumber1 += (int) (Math.random() * 3);
-		}
-		String phoneNumber2 = "1";
-		for (int i = 0; i < 9; i++) {
-			phoneNumber2 += (int) (Math.random() * 4);
-		}
-		String all = phoneNumber + phoneNumber1 + phoneNumber2;
-		return all;
-	}
 	public static void main(String[] args) {
 		System.out.println(getPhoneNumber());
 		System.out.println(getRandomLicense());
-		System.out.println(getPhoneNumber1());
 	}
 }
