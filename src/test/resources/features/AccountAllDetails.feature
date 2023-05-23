@@ -2,7 +2,7 @@
 Feature: Create an account and add address, phone and car Testing
 
   Background: generate token
-    * def tokenFeature = callonce read('GenerateTOken.feature')
+    * def tokenFeature = callonce read('GenerateToken.feature')
     * def token = tokenFeature.response.token
     Given url "https://tek-insurance-api.azurewebsites.net"
 
