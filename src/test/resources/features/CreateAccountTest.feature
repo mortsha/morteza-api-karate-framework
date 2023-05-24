@@ -1,4 +1,4 @@
-@Regression
+
 Feature: Create An Account Test
 
   Background: Setup Request URL
