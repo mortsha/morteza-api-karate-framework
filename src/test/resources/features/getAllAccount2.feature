@@ -1,3 +1,4 @@
+@Regression
 Feature: Get all accounts
 
   Background: Generate token
